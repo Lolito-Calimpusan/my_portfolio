@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Responsive Portfolio</title>
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="brand">
+            <h1>My Portfolio</h1>
+        </div>
+        <button class="toggle-menu">☰</button>
+        <div class="nav-items">
+            <a href="#hero" class="navlink">Home</a>
+            <a href="#about" class="navlink">About</a>
+            <a href="#skills" class="navlink">Skills</a>
+            <a href="#testimonials" class="navlink">Testimonials</a>
+            <a href="#services" class="navlink">Services</a>
+            <a href="#projects" class="navlink">Projects</a>
+            <a href="#contact" class="navlink">Contact</a>
+        </div>
+    </nav>
+
+    <div id="hero" class="hero-container">
+        <div class="text-column">
+            <h1 class="fade-in">Hi! I'm Lolito C. Calimpusan Jr.</h1>
+            <p>I am a dedicated web developer specializing in creating dynamic and responsive web applications. With expertise in HTML, CSS, and JavaScript, I strive to build user-friendly experiences that are both efficient and aesthetically pleasing.</p>
+            <button class="contact-button">Contact Me</button>
+        </div>
+        <div class="image-column">
+            <img src="/images/hero-image.png" alt="Your Picture" />
+        </div>
+    </div>
+
+    <!-- About -->
+    <section id="about" class="about-container">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="/images/about.png" alt="About Me" />
+            </div>
+            <div class="about-text">
+                <h3>Who I Am</h3>
+                <p>Hello! I'm Lolito C. Calimpusan Jr., a passionate web developer with a keen eye for design and a love for crafting beautiful, user-friendly websites. I believe in the power of web technology to transform ideas into reality.</p>
+                <p>With experience in HTML, CSS, and JavaScript, I aim to deliver engaging and efficient digital solutions that enhance user experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills-container">
+        <div class="skills-content">
+            <div class="skills-text-column">
+                <h2>My Skills</h2>
+                <div class="skill-bar">
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="progress">
+                            <div class="progress-bar html"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CSS</span>
+                        <div class="progress">
+                            <div class="progress-bar css"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="progress">
+                            <div class="progress-bar js"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="progress">
+                            <div class="progress-bar php"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Laravel</span>
+                        <div class="progress">
+                            <div class="progress-bar laravel"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Webflow</span>
+                        <div class="progress">
+                            <div class="progress-bar webflow"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>WordPress</span>
+                        <div class="progress">
+                            <div class="progress-bar wordpress"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services-container">
+        <h2>My Services</h2>
+        <div class="services-content">
+            <div class="service-card">
+                <h3>Web Development</h3>
+                <p>Building responsive and dynamic websites tailored to your needs.</p>
+            </div>
+            <div class="service-card">
+                <h3>UI/UX Design</h3>
+                <p>Creating user-friendly interfaces that enhance user experience.</p>
+            </div>
+            <div class="service-card">
+                <h3>E-commerce Solutions</h3>
+                <p>Developing scalable e-commerce platforms to grow your business.</p>
+            </div>
+            <div class="service-card">
+                <h3>SEO Optimization</h3>
+                <p>Improving your website’s visibility and ranking on search engines.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials-container">
+        <h2>Testimonials</h2>
+        <div class="testimonials-content">
+            <div class="testimonial-card">
+                <p>"Lolito is an exceptional web developer. He brought our vision to life with creativity and skill!"</p>
+                <h4>- Jane Doe</h4>
+                <p>CEO, Company A</p>
+            </div>
+            <div class="testimonial-card">
+                <p>"Working with Lolito was a fantastic experience. His attention to detail is unmatched!"</p>
+                <h4>- John Smith</h4>
+                <p>Marketing Director, Company B</p>
+            </div>
+            <div class="testimonial-card">
+                <p>"I highly recommend Lolito for any web development needs. He delivered beyond our expectations!"</p>
+                <h4>- Emily Johnson</h4>
+                <p>Project Manager, Company C</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects-container">
+        <h2>My Projects</h2>
+        <div class="projects-content">
+            <div class="project-card">
+                <img src="/images/Surigao_serenity_suite.jpg" alt="Project 1" />
+                <h3>Project One</h3>
+                <p>A brief description of what Project One is about and its features.</p>
+                <a href="https://link-to-project-one.com" class="project-link" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="/images/vicekleta_landing_page.jpg" alt="Project 2" />
+                <h3>Project Two</h3>
+                <p>A brief description of what Project Two is about and its features.</p>
+                <a href="https://link-to-project-two.com" class="project-link" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="/images/Surigao_serenity_suite.jpg" alt="Project 3" />
+                <h3>Project Three</h3>
+                <p>A brief description of what Project Three is about and its features.</p>
+                <a href="https://link-to-project-three.com" class="project-link" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="/images/vicekleta_landing_page.jpg" alt="Project 4" />
+                <h3>Project Four</h3>
+                <p>A brief description of what Project Four is about and its features.</p>
+                <a href="https://link-to-project-four.com" class="project-link" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="/images/Surigao_serenity_suite.jpg" alt="Project 5" />
+                <h3>Project Five</h3>
+                <p>A brief description of what Project Five is about and its features.</p>
+                <a href="https://link-to-project-five.com" class="project-link" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact-container">
+        <h2>Get in Touch</h2>
+        <div class="contact-info">
+            <div class="info">
+                <h3>Contact Information</h3>
+                <p><strong>Email:</strong> example@example.com</p>
+                <p><strong>Phone:</strong> +63 912 345 6789</p>
+                <p><strong>Location:</strong> Surigao City, Philippines</p>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1898.8748403562142!2d125.4975731!3d9.7834509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a07e1f3e4d2c93%3A0xa1b54a9b7c9c93a8!2sSurigao%20City%2C%20Philippines!5e0!3m2!1sen!2sus!4v1637152997401!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        <form class="contact-form">
+            <h3>Contact Form</h3>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Lolito C. Calimpusan Jr. All rights reserved.</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/yourprofile" target="_blank" class="social-icon">
+                <img src="https://img.icons8.com/material-outlined/24/ffffff/facebook-new.png" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/yourprofile" target="_blank" class="social-icon">
+                <img src="https://img.icons8.com/material-outlined/24/ffffff/instagram-new.png" alt="Instagram">
+            </a>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const toggleMenu = document.querySelector(".toggle-menu");
+            const navItems = document.querySelector(".nav-items");
+    
+            toggleMenu.addEventListener("click", function() {
+                navItems.classList.toggle("active");
+            });
+        });
+    </script>
+    
+</body>
+</html>
